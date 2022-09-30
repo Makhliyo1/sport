@@ -1,0 +1,247 @@
+@import url(font.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Rubik-Regular';
+}
+
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+.nav{
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.nav__list{
+    display: flex;
+    column-gap: 30px;
+}
+
+
+.nav__link{
+    line-height: 19px;
+    color: black;
+    padding: 30px 0;
+    transition: 0.4s;
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+
+}
+
+.nav__link:hover{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.search{
+    max-width: 290px;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav__input{
+    border: none;
+    font-size: 12px;
+    line-height: 14px;
+    color: black;
+    border-radius: 10px;
+    width: 100%;
+    padding-left: 12px;
+
+}
+
+.nav__btn{
+    font-size: 12px;
+    color: white;
+    line-height: 14px;
+    padding: 0 17px;
+    background: black;
+    border-radius: 0 10px 10px 0;
+}
+
+
+/* header  start */
+
+.header{
+    background: url(../img/header__banner.png) no-repeat top/cover;
+    height: 100vh;
+}
+
+.header__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.header__content-title{
+    color: white;
+    font-size: 59px;
+    line-height: 70px;
+    font-family: 'Rubik-SemiBold';
+    padding: 20px 0 10px;
+
+}
+
+
+.header__content-text{
+    font-family: 'Rubik-Light';
+    font-size: 26px;
+    line-height: 30px;
+    color: white;
+    text-transform: uppercase;
+}
+
+
+
+
+/* header  end */
+
+
+/* card start */
+
+
+.cards{
+    display: flex;
+}
+
+.card{
+    width: 25%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    background: #181D28;
+
+}
+
+.card:hover{
+    background: #6B4B6B;
+}
+
+.card__title{
+    font-size: 18px;
+    line-height: 21px;
+    color: white;
+    padding-top: 24px;
+}
+
+
+
+
+/* gear  start */
+
+.gear{
+    padding: 40px 0;
+}
+
+.gear__title{
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 22px;
+    font-family: 'Rubik-SemiBold';
+    color: black;
+    line-height: 26px;
+}
+
+
+.gear__text{
+    font-size: 15px;
+    line-height: 18px;
+    color: black;
+    padding-bottom: 40px;
+
+}
+
+.gear__img{
+    width: 100%;
+}
+
+/* gear  end */
+
+
+/* clothing start */
+
+.clothing__title{
+    text-align: center;
+    font-size: 22px;
+    line-height: 26px;
+    font-family: 'Rubik-SemiBold';
+    color: black;
+    padding-bottom: 30px;
+}
+
+
+.clothing__content{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+
+.clothing__content-link{
+    font-size: 15px;
+    line-height: 18px;
+    color: black;
+}
+
+.clothing__content-item{
+    padding-bottom: 14px;
+}
+
+/* clothing end */
+
+
+/* footer start */
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #181D28;
+    padding: 35px;
+}
+
+
+.footer__list{
+    display: flex;
+    column-gap: 30px;
+}
+
+
+.footer__list-link{
+    color: white;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+
+
+
+/* footer end */
+
+
+
+
+
+
+

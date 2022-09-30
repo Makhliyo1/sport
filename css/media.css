@@ -1,0 +1,246 @@
+
+
+
+@media(max-width: 992px) {
+.header__content-img{
+width: 230px;
+}
+
+.header__content-title{
+font-size: 55px;
+padding: 0;
+}
+
+.cards{
+flex-wrap: wrap;
+}
+
+.card{
+width: 50%;
+}
+
+.clothing__content{
+justify-content: center;
+align-items: center;
+gap: 55px;
+}
+
+}
+
+@media(max-width: 800px) {
+.clothing__content{
+flex-wrap: wrap;
+row-gap: 10px;
+}
+
+.clothing__content{
+padding-bottom: 15px;
+}
+
+}
+
+
+@media(max-width: 768px) {
+
+.nav__logo{
+width: 70px;
+}
+
+.nav__link{
+font-size: 15px;
+}
+
+.search{
+max-width: 270px;
+}
+
+}
+
+
+@media(max-width: 740px) {
+
+    .nav{
+    flex-direction: column;
+    padding: 20px 0;
+    }
+
+  .nav__link{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: none;
+    border-top: none;
+}
+
+.nav__link:hover{
+    border-bottom: none;
+    border-top: none;
+}
+
+.nav__link::before{
+    content: '';
+position: absolute;
+width: 0;
+bottom: 27px;
+background: black;
+height: 2px;
+transition: 0.5s;
+}
+
+
+.nav__link:hover::before{
+width: 100%;
+}
+
+}
+
+@media(max-width: 660px) {
+
+.header__content-img{
+width: 200px;
+
+}
+.header__content-title{
+font-size: 45px;
+padding: 0;
+}
+
+.header__content-text{
+font-size: 23px;
+}
+
+.card{
+height: 185px;
+}
+
+.footer__logo{
+width: 90px;
+}
+
+.footer__list-link{
+font-size: 18px;
+}
+
+}
+
+
+@media(max-width: 576px) {
+.card{
+width: 100%;
+}
+.cards{
+gap: 10px;
+background:#46ac86;
+}
+
+.card__img{
+width: 80px;
+}
+
+.card__title{
+font-size: 17px;
+}
+
+.gear__title{
+font-size: 20px;
+}
+
+.gear__text{
+font-size: 16px;
+}
+
+.clothing__title{
+font-size: 20px;
+}
+
+}
+
+@media(max-width: 460px) {
+
+
+    .gear__title{
+    font-size: 18px;
+    padding-bottom: 10px;
+    }
+
+    .gear{
+    padding-top: 30px;
+    }
+
+    .gear__text{
+    font-size: 14px;
+    }
+
+    .clothing__title{
+    font-size: 18px;
+    }
+
+    .clothing__content-item{
+    font-size: 14px;
+    }
+
+    .clothing__content{
+    row-gap: 10px;
+    }
+
+    .footer{
+    padding: 15px;
+    }
+
+    .footer__list-link{
+    font-size: 14px;
+    }
+
+    .footer__logo{
+        width: 80px;
+        }
+
+
+}
+
+
+@media(max-width: 440px) {
+
+.clothing__content-link{
+font-size: 14px;
+}
+
+.footer{
+flex-direction: column;
+row-gap: 10px;
+}
+
+
+.footer__list-link{
+font-size: 14px;
+}
+
+}
+
+
+@media(max-width: 360px) {
+
+.search{
+max-width: 240px;
+}
+
+.header__content-img{
+width: 175px;
+}    
+
+.header__content-title{
+font-size: 35px;
+}
+
+.header__content-text{
+font-size: 16px;
+line-height: 12px;
+}
+
+.gear__img{
+height: 95px;
+}
+
+}
